@@ -1,6 +1,60 @@
-img {
-	border-radius: 50%;
-}
 body {
-	text-align: center;
+  color: midnightblue;
+  background-color: lightsteelblue;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 3px;
+  font-weight: 500;
 }
+img {
+  border-radius: 50%;
+}
+h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 30px;
+  letter-spacing: 2;
+}
+h3 {
+  text-align: center;
+  line-height: 1;
+  font-size: 20px;
+}
+h4 { font-size: 20px;
+  font-weight: 500;
+}
+h5 { font-size: 15px;
+  font-weight: 300;
+}
+.style{
+  text-align: center;
+}
+.style1{ 
+  background-color: white;
+  padding: 50px;
+  margin: 90px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0.1);
+  border-radius: 4px;
+}
+.style2{
+  background-color: white;
+  padding: 50px;
+  margin: 90px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0.1);
+  border-radius: 4px
+}
+.style3{
+  background-color: white;
+  padding: 50px;
+  margin: 90px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0.1);
+  border-radius: 4px
+  }
+  .style4{
+  background-color: white;
+  padding: 50px;
+  margin: 90px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0.1);
+  border-radius: 4px
+  }
