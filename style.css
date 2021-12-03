@@ -1,6 +1,6 @@
 body {
   color: midnightblue;
-  background-color: lightsteelblue;
+  background-color: aliceblue;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   letter-spacing: 3px;
@@ -23,9 +23,30 @@ h3 {
 }
 h4 { font-size: 20px;
   font-weight: 500;
+  color: darkblue;
 }
 h5 { font-size: 15px;
   font-weight: 300;
+  color: royalblue;
+}
+a{
+  text-decoration: none;
+}
+.btn1 {
+  background-color: aliceblue;
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: darkblue;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.btn2{
+  background-color: aliceblue;
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: darkblue;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
 .style{
   text-align: center;
@@ -58,3 +79,18 @@ h5 { font-size: 15px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0.1);
   border-radius: 4px
   }
+  @media (max-width: 960px) {
+  .container{ 
+    width: 700px;
+  }
+}
+@media (max-width: 720px){
+  .container{
+    width: 500px;
+  }
+}
+@media (max-width: 540px){
+  .container{
+    width: 300px;
+  }
+
